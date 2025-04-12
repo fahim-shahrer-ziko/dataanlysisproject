@@ -1,0 +1,13 @@
+prefix=D:/DataAnalysis/venv/Library
+exec_prefix=D:/DataAnalysis/venv/Library
+libdir=D:/DataAnalysis/venv/Library/lib
+sharedlibdir=D:/DataAnalysis/venv/Library/lib
+includedir=D:/DataAnalysis/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
